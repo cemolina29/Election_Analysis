@@ -8,9 +8,12 @@ A Colorado Board of Education employee asked for a report of total number of vot
 
 1. Total number of votes cast
 2. A complete list of candidates who received votes
-3. Total number of votes each candidate received
-4. Percentage of votes each candidate won
-5. The winner of the election based on popular vote
+4. The voter turnout for each county
+5. The percentage of votes from each county out of the total count
+6. The county with the highest turnout
+7. Total number of votes each candidate received
+8. Percentage of votes each candidate won
+9. The winner of the election based on popular vote
 
 ## Resources 
 
@@ -34,14 +37,26 @@ The analysis of the election show that:
   - Raymon Anthony Doane received 3.1% of votes and 11,606 number of votes. 
 
 - The winner of the election was: 
-  - **Diana Degette with 73.8% (272,892) of total votes.**
+  - Diana Degette with 73.8% (272,892) of total votes.
+
+- The counties results:
+  - Jefferson county had 10.5% of the total vote with 38,855 votes.
+  - Denver county had 82.8% of the total vote with 306,055 votes.
+  - Arapahoe county had 6.7% of the total vote with 24,801 votes.
+  - Total Votes = 369,711
+   
+- The county with the highest turnout was:
+  - Denver with 306,055 votes.
+
+Image added for Ilustration
+
+<img width="294" alt="Election Results" src="https://user-images.githubusercontent.com/108438270/187577345-2338d19a-463b-45cf-b9dc-475f8a0ef112.png">
+
 
 ## Challenge Overview
 
-This challenge provided deep understanding of the use of python and the many challenges you will encounter while writing.
+This challenge provided deep understanding of the use of python and the many challenges you will encounter while writing and modifying code.
 
 ## Challenge Summary 
 
-This script can be modified for different purposes and to get a deeper understanding of the data. This script has shown to accurately and efficentially provide results for the local elections vote. From the data the number of votes that each candiate received and the percentage were pulled to find the winner of the election. 
-
-
+This script can be modified for different purposes and to get a deeper understanding of the data. This script has shown to accurately and efficentially provide results for the local elections vote. From the data the number of votes that each candiate received and the percentage were pulled to find the winner of the election. The first example is that we could use demographics like sex, age or ethnicity to give the results more understanding and apply classification. The second example is that we could look into the cities and not just counties.  We would need to add these inputs into the election_results.csv file in order to begin the script for it. These two examples can be used for future puposes for candidates to see how to win a future election.
